@@ -20,7 +20,7 @@ def gradientDescent(x, y, theta, alpha, m, numIterations):
 
 # 生成数据
 
-# 骗值， 方差
+# 数据， 骗值， 方差
 def genData(numPoints, bias, variance):
     x = np.zeros(shape=(numPoints, 2)) # numPoints行， 2列
     y = np.zeros(shape=numPoints) # 归类的标签
